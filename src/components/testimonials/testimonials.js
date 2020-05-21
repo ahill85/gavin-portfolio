@@ -18,13 +18,17 @@ export default class Testimonials extends Component {
                     resumeData.testimonials.map(item => {
                       return (
                         <li>
-                         
+
                           <div className="testimonials-container">
-                          <img src={`${item.imgurl}`} className="item-img" />
+                            <div class="img-left">
+                              <img src={`${item.imgurl}`} className="item-img" />
+                            </div>
+                            <div class="text-rb">
                             <blockquote>
                               <p>{item.description}</p>
                               <cite>{item.name}</cite>
                             </blockquote>
+                            </div>
                             </div>
                         </li>
                       );

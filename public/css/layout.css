@@ -768,6 +768,13 @@ call-to-action .button {
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited { color: #8B9798; border: none }
 
+.img-left{float:left; padding-right:5px; }
+.text-rb{}
+@media only screen and (max-width: 600px) {
+  .img-left{float:none; }
+}
+
+
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
